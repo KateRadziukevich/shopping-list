@@ -16,7 +16,7 @@ input.addEventListener('keydown', function (event) {
     if (event.key == 'Enter') {
         const li = document.createElement('li');
         li.textContent = input.value;
-        
+    const elements = document.querySelectorAll('li');    
         if (input.value != '') {
             items.append(li);
         }
